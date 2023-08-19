@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/my-wellness.png"
+      type="image/x-icon"
+    />
+    <title>My Wellness</title>
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(to top left, #02031c, #020b01);
+        /* background: #051527; */
+        width: 100vw;
+        height: 100vh;
+      }
+      .container {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .brand {
+        padding: 50px;
+      }
+
+      p {
+        color: #fff;
+        font-size: 50px;
+      }
+
+      .links {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .link-wrap {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+      .ebay-text {
+        margin-top: -15px;
+      }
+
+      @media (max-width: 488px) {
+        .brand {
+          padding: 20px;
+        }
+        p {
+          font-size: 30px;
+        }
+        .links {
+          width: 100%;
+        }
+
+        .container {
+          height: 75vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="brand">
+      <img
+        src="./assets/my-wellness.png"
+        alt="My Wellness Logo"
+        width="100px"
+      />
+    </div>
+
+    <div class="container">
+      <p>COMMING SOON!!!</p>
+
+      <div class="links">
+        <div class="link-wrap">
+          <a
+            href="https://www.etsy.com/uk/shop/GetitfyShop?ref=seller-platform-mcnav"
+            target="_blank"
+          >
+            <img src="./assets/etsy-icom.png" alt="etsy logo" width="100px" />
+          </a>
+          <a
+            href="https://www.etsy.com/uk/shop/GetitfyShop?ref=seller-platform-mcnav"
+            target="_blank"
+            >Find us on esty
+          </a>
+        </div>
+        <div class="link-wrap">
+          <a
+            href="https://www.ebay.co.uk/usr/getitfy?_trksid=p2047675.m3561.l2559"
+            target="_blank"
+          >
+            <img src="./assets/ebay-icon.png" alt="" width="100px" />
+          </a>
+          <a
+            href="https://www.ebay.co.uk/usr/getitfy?_trksid=p2047675.m3561.l2559"
+            target="_blank"
+            class="ebay-text"
+            >Find us on eBay
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
