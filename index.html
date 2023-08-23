@@ -11,9 +11,6 @@
     <title>My Wellness</title>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <!-- <script>
-     
-    </script> -->
 
     <style>
       body {
@@ -25,14 +22,11 @@
         height: 100vh;
       }
       .container {
-        height: 60vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      }
-      .brand {
-        padding: 50px;
       }
 
       p {
@@ -64,32 +58,24 @@
       }
 
       @media (max-width: 488px) {
-        .brand {
-          padding: 20px;
-        }
         p {
           font-size: 30px;
         }
         .links {
           width: 100%;
         }
-
-        .container {
-          height: 65vh;
-        }
       }
     </style>
   </head>
   <body>
-    <div class="brand">
+    <div class="brand"></div>
+
+    <div class="container">
       <img
         src="./assets/my-wellness.png"
         alt="My Wellness Logo"
-        width="100px"
+        width="150px"
       />
-    </div>
-
-    <div class="container">
       <lottie-player
         src="https://lottie.host/cde0997c-170f-4036-9388-5bf017d1311f/cgIDo10YT0.json"
         background="transparent"
